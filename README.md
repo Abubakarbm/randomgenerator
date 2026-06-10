@@ -2,11 +2,11 @@
 
 An automated tool that scrapes and downloads practice papers from the university portal with built-in duplicate detection to maintain a clean, unique archive.
 
-## 🎯 Project Purpose
+##  Project Purpose
 
 This tool was created to eliminate the tedious and time-consuming process of manually retrieving practice papers from the university portal. By automating the download process, it saves hours of manual retrieval work while ensuring a well-organized collection of unique documents.
 
-## ✨ Features
+##  Features
 
 - **Automated Scraping**: Intelligently discovers and retrieves practice papers from the university portal
 - **Duplicate Detection**: Prevents duplicate downloads by checking if files already exist before saving
@@ -19,19 +19,19 @@ This tool was created to eliminate the tedious and time-consuming process of man
   - Real-time progress tracking
 - **Reliable & Minimal Dependencies**: Built with only essential libraries for maximum compatibility
 
-## 🛠️ How It Works
+##  How It Works
 
 1. **Discovery Phase**: Makes repeated POST requests to the university portal URL to discover all available practice papers
 2. **Duplicate Check**: Tracks unique files and stops searching after a configurable number of attempts without finding new papers
 3. **Save Phase**: Downloads and saves discovered files to your selected folder, skipping duplicates automatically
 4. **Statistics**: Provides detailed feedback on successful saves, skipped duplicates, and any failures
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.x
 - `requests` library
 
-## 📥 Installation
+##  Installation
 
 1. Clone or download this repository
 2. Install the required dependency:
@@ -39,7 +39,7 @@ This tool was created to eliminate the tedious and time-consuming process of man
    pip install requests
    ```
 
-## 🚀 Usage
+##  Usage
 
 Run the script:
 ```bash
@@ -75,7 +75,7 @@ Then follow the interactive prompts:
    - Any files that failed to save
    - Location where files were saved
 
-## 📊 Example Output
+##  Example Output
 
 ```
 ============================================================
@@ -106,7 +106,7 @@ Failed: 0
 Location: /path/to/downloads
 ```
 
-## 💡 Real-World Application
+##  Real-World Application
 
 This tool demonstrates practical automation thinking and the ability to build reliable, real-world tooling with minimal external dependencies. It's an effective solution for:
 
@@ -114,27 +114,28 @@ This tool demonstrates practical automation thinking and the ability to build re
 - Educators maintaining archives of practice materials
 - Anyone automating repetitive document retrieval tasks
 
-## 🔧 Technical Highlights
+##  Technical Highlights
 
 - **Smart Duplicate Detection**: Uses file names to detect duplicates without storing everything in memory
 - **Configurable Patience Algorithm**: Intelligently stops searching when diminishing returns suggest all files have been found
 - **Error Handling**: Gracefully handles network timeouts and file system errors
 - **Cross-Platform**: Works on Windows, macOS, and Linux
 
-## ⚠️ Important Notes
+##  Important Notes
 
 - Ensure you have permission to download files from the university portal
 - Some university portals may require authentication or have rate-limiting policies
 - The script respects a 0.5-second delay between requests to avoid overloading the server
 - Files that already exist in the target folder will be skipped to maintain data integrity
 
-## 📝 License
+##  License
 
 This project is open source and available for personal and educational use.
 
-## 👤 Author
+##  Author
 
 Created as a practical automation solution to streamline the process of managing university study materials.
+BProg1 was crazy!!
 
 ---
 
